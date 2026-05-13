@@ -1,0 +1,13 @@
+# daemon runtime
+.daemon.pid
+daemon.log
+__pycache__/
+
+# sensitive config (copy from config.yaml.example)
+kakao_auth.json
+
+# runs: all experiment output ignored, only the directory itself is tracked
+runs/*/
+
+# queue: completed scripts and active queue files
+queue/*.sh

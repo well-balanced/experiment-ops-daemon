@@ -1,0 +1,5 @@
+poll_interval_seconds: 300
+max_concurrent_per_gpu: 1
+log_snapshot_lines: 100
+
+kakao_report_interval_hours: 12
